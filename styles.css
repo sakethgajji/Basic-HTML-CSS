@@ -27,10 +27,23 @@ body {
     color:black
 }
 .hero {
+    display: flex;
+    height: 85vh;
+}
+.right {
     height:85vh;
+    width: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #e70b0b;
+}
+.left {
+    display: flex;
+    width: 120vh;
+}
+.left img{
+    height:50vh;
+    width: 120vh;
 }
